@@ -1,0 +1,33 @@
+.deliveryTitle{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #283849;
+}
+
+form.deliveryForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 35vh;
+    width: 50vw;
+    margin-top: 5vh;
+    color: #283849;
+}
+
+input.formInputText{
+    height: 5vh;
+    width: 20vw;
+    font-size: 1.5rem;
+    border-left: 0.01vw solid #34A3B6;
+    border-bottom: 0.01vw solid #34A3B6;
+    padding: 0.2vw;
+    color: #283849;
+}
+
+button.sendReq{
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    color: #F8EEDB;
+}

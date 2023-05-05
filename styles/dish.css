@@ -1,0 +1,48 @@
+section.dish{
+    height: 54vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.dishImg{
+    height: 50vh;
+    width: 31.25vw;
+}
+
+.dishDesc{
+    width: 31.25vw;
+    height: 100%;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #283849;
+    font-size: 2rem;
+}
+
+p.dishTitle{
+    font-weight: 700;
+    
+    margin-bottom: 2vw;
+}
+
+span.dishDescription{
+    font-size: 0.7em;
+    margin-bottom: 2vw;
+}
+
+span.dishIngredients{
+    font-size: 1em;
+}
+
+ul.dishIngredientsList{
+    font-size: 0.5em;
+    margin-bottom: 2vw;
+}
+
+button.orderDish{
+    height: 4vh;
+    font-size: 0.5em;
+}

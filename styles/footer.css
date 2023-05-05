@@ -1,0 +1,35 @@
+.footer{
+    height: 100%;
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.78125vw;
+}
+
+footer.footer{
+    margin-top: 10vh;
+    height: 20vh;
+    width: 100vw;
+    background-color: #34A3B6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+span.footerColumnText{
+    margin-top: 2vh;
+    color: #F8EEDB;
+}
+
+.footerTitle{
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,61 @@
+.hero{
+    width: 50vw;
+    height: 46.296296296296vh;
+    margin-top: 10vh;
+    font-size: 1.5rem;
+}
+
+.heroTitle{
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+    color: #283849;
+}
+
+sectoin.menu{
+    margin-top: 25vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #283849;
+    text-align: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.78125vw;
+
+}
+
+.menuItem{
+    width: 15.625vw;
+    height: 55.555555555556vh;
+    background-color: rgba(40, 56, 73, 0.6);
+    
+}
+
+.menuItemTitle{
+    text-align: center;
+    color: #F8EEDB;
+    margin-top: 0.5vh;
+    font-size: 1.4rem;
+}
+
+.menuIMG{
+    height: 50%;
+    width: 100%;
+}
+
+.meniItemDescription{
+    text-align: center;
+    color: #F8EEDB;
+    margin-top: 0.5vh;
+    font-size: 0.9rem;
+    padding: 0.2vh;
+}
